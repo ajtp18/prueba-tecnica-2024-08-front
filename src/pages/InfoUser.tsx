@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { ProductContext } from '../App';
 import { infoUser } from '../adapters/types/clientTypes';

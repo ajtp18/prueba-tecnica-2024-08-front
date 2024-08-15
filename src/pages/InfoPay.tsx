@@ -1,7 +1,6 @@
-import React from 'react'
 import { useState, useContext } from 'react'
 import { ProductContext } from '../App'
-import { infoPay, infoUser } from '../adapters/types/clientTypes'
+import { infoPay } from '../adapters/types/clientTypes'
 import { useNavigate } from 'react-router'
 import MASTERCARD from "../adapters/img/mastercard.png"
 import VISA from "../adapters/img/visa.webp"
