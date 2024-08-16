@@ -1,6 +1,5 @@
 import { customer } from "../types/apiTypes";
 import { httpClient } from "./httpClient";
-import { infoPay } from "../types/clientTypes";
 
 export const postCustomer = async (name: string, pin: string) => {
     try {

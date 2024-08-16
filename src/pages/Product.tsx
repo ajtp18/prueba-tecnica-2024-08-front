@@ -13,7 +13,7 @@ function Product() {
   const { setProductContext } = useContext(ProductContext);
 
   useEffect(() => {
-    getProducts(undefined).then((product) => {
+    getProducts().then((product) => {
       if (product) {
         dispatch(setProduct(product));
         setProductContext(product);

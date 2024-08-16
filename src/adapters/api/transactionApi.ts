@@ -1,4 +1,3 @@
-import { transaction } from "../types/apiTypes";
 import { httpClient } from "./httpClient";
 
 
