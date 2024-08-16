@@ -2,13 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { createTransaction } from "../adapters/api/transactionApi";
 
-interface SummaryProps {
-    productContext: any;
-    userInfo: any;
-    payInfo: any;
-}
-
-function Summary({ productContext, userInfo, payInfo }: SummaryProps) {
+function Summary() {
     const navigate = useNavigate();
     const [product, setProduct] = useState<{ id: number, name: string, price: number } | null>(null);
     const [customerId, setCustomerId] = useState<number | null>(null);
