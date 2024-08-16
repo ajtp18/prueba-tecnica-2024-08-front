@@ -10,3 +10,11 @@ export interface customer{
     name: string;
     pin: string;
 }
+
+export interface transaction{
+    id: number;
+    status: string;
+    productId: number;
+    customerId: number;
+    cardIndex: number;
+}
