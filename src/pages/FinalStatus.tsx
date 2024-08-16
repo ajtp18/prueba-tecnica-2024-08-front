@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Spin from "../adapters/ui/components/Spin";
 import { getTransactionStatus } from "../adapters/api/transactionApi";
 
 function FinalStatus() {
